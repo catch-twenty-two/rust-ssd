@@ -1,0 +1,6 @@
+/target
+/assets/pretrained_models/
+/artifacts/log.txt
+/.vscode
+/Cargo.lock
+/artifacts/checkpoints/

@@ -1,0 +1,9 @@
+pub mod pipeline;
+pub mod zoom_out;
+pub mod flip;
+pub mod save_image;
+pub mod photometric;
+pub mod clean_boxes;
+pub mod normalize;
+pub mod crop;
+pub mod resize;

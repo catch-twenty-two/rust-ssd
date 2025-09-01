@@ -1,0 +1,16 @@
+{
+  "optimizer": {
+    "weight_decay": null,
+    "momentum": {
+      "momentum": 0.9,
+      "dampening": 0.0,
+      "nesterov": true
+    },
+    "gradient_clipping": null
+  },
+  "num_epochs": 350,
+  "batch_size": 12,
+  "num_workers": 5,
+  "seed": 2,
+  "learning_rate": 0.0001
+}
