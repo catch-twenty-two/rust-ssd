@@ -6,6 +6,9 @@
     <figcaption>Uncanny image created with ChatGPT 🚀 🤔, object detection done with Rust-SSD 👍</figcaption>
 </figure>
 
+--- 
+ 
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE) - (With Special Provisions for Burn)
 
 ## Table of Contents
@@ -104,11 +107,11 @@ Other options are:
 This will produce a jpeg file in the same directory the process was executed in named `/ssd300_output.jpg` with annotated bounding boxes and labels.
 
 ## Training
-Similar inference, training is done using the 'train' directive as demonstrated in the following command:
+Similarly to inference, training is done using the 'train' directive as demonstrated in the following command:
 ```
 cargo run --release -- --o 'person,cat,dog' train --c 22  --r /home/mint/coco-2017/
 ```
- In both training and inference, the --o option is required and needs to match the objects called out in the .mpk file name in both order *and* name. 
+ In both training and inference, the --o option is required.
 
   - **c** - Instructs the executable to begin training at a specific checkpoint, in this case it's 22. 
   - **r** - Provides ssd-rust the root folder path for the COCO dataset. In this example, the COCO root folder is considered to be `coco-2017` which has the following directory layout:
