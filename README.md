@@ -25,7 +25,7 @@
 
 # Overview
 
-Rust SSD is an **object detection library** built in Rust using the [Burn](https://github.com/burn-rs/burn) framework. It implements the **Single Shot MultiBox Detector (SSD)** for detecting objects in images.  
+Rust SSD is an object detection application built using Rust and the [Burn](https://github.com/burn-rs/burn) framework. It implements the **Single Shot MultiBox Detector (SSD)** for detecting objects in images.
 
 #### Why SSD and Rust?
 
